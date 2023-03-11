@@ -110,6 +110,7 @@ export default function ChatContainer({ currentChat, socket }) {
 const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 80% 10%;
+  background-color:rgb(143,195,151);
   gap: 0.1rem;
   overflow: hidden;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
@@ -145,7 +146,7 @@ const Container = styled.div`
     &::-webkit-scrollbar {
       width: 0.2rem;
       &-thumb {
-        background-color: #ffffff39;
+        background-color:rgb(234,235,240);
         width: 0.1rem;
         border-radius: 1rem;
       }
@@ -159,7 +160,7 @@ const Container = styled.div`
         padding: 1rem;
         font-size: 1.1rem;
         border-radius: 1rem;
-        color: #d1d1d1;
+        color: #FFFFFF;
         @media screen and (min-width: 720px) and (max-width: 1080px) {
           max-width: 70%;
         }

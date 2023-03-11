@@ -27,6 +27,7 @@ const Container = styled.div`
   align-items: center;
   color: white;
   flex-direction: column;
+  background-color:rgb(143,195,151);
   img {
     height: 20rem;
   }
